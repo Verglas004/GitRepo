@@ -25,7 +25,8 @@ public class Main implements PanelListener {
 	
 	public Main(){
 		setupMainFrame();
-		currentPanel = new BasicButtonPanel(this, ButtonUtility.basicButtonLabels);
+		//TODO taken out to test faster
+		currentPanel = new CharacterSheet();/*new BasicButtonPanel(this, ButtonUtility.basicButtonLabels);*/
 		startMainFrame();
 	}
 	

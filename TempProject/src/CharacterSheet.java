@@ -1,12 +1,13 @@
 import java.awt.Dimension;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
-public class CharacterSheet extends JFrame {
+public class CharacterSheet extends JPanel {
 	private Character character;
 	private boolean newCharacter;
-
+	
 	public CharacterSheet() {
 		newCharacter = true;
 		character = new Character();
@@ -17,7 +18,7 @@ public class CharacterSheet extends JFrame {
 
 	private void init(boolean newCharacter2) {
 		setSize(new Dimension(750, 300));
-		setTitle("Character Sheet");
+		setName("Character Sheet");
 		setVisible(true);
 
 		add(new StatsPanel());
