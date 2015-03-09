@@ -32,12 +32,11 @@ public class PullSpellInfo {
 	}
 	
 	private void readExcelSheet() {
-		// String filename =
-		// getClass().getResource("Spell List.xlsx").getPath();
+		//String filename = getClass().getResource("Spell List.xlsx").getPath();
 		// C:\Users\sac\workspace\TempProject\bin\Spell%20List.xlsx
 		// String filename =
 		// "C:\\Users\\sac\\workspace\\TempProject\\bin\\Spell List.xlsx";
-		String filename = "C:\\Users\\Administrator\\workspace\\TempProject\\bin\\Spell List.xlsx";
+		String filename = "C:\\Git Repo\\TempProject\\src\\Spell List.xlsx";
 
 		try {
 

@@ -19,8 +19,7 @@ public class Main implements PanelListener {
 	public static void main(String[] args) {
 		// m.rollCharacterStats(2);
 		// CharacterSheet charSheet = new CharacterSheet();
-		PullSpellInfo spellInfo = new PullSpellInfo();
-		ArrayList<Spell> spellList = spellInfo.getSpellList();
+		
 		Main m = new Main();
 	}
 	

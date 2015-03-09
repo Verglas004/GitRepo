@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/itextpdf-5.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/itextpdf-5.5.5-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/itextpdf-5.5.5-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/poi-excelant-3.11-20141221.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/poi-scratchpad-3.11-20141221.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/poi-3.11-20141221.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/synthetica.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/syntheticaBlackEye.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/syntheticaBlackStar.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Administrator/Downloads/jars/syntheticaBlueLight.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
