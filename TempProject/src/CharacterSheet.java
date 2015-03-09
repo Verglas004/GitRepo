@@ -16,12 +16,14 @@ public class CharacterSheet extends JPanel {
 		validate();
 	}
 
-	private void init(boolean newCharacter2) {
+	private void init(boolean newCharacter) {
 		setSize(new Dimension(750, 300));
 		setName("Character Sheet");
 		setVisible(true);
 
-		add(new StatsPanel());
+		//TODO stats panel here
+		//add(new StatsPanel());
+		add(new SpellsPanel());
 	}
 
 	public CharacterSheet(Character character) {
