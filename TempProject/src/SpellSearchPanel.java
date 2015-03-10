@@ -37,9 +37,8 @@ public class SpellSearchPanel  extends JPanel implements ActionListener, MouseLi
 	JTable table;
 	JLabel searchNameLabel, searchLevelLabel, searchClassLabel;
 	JComboBox<String> nameComboBox, levelComboBox, classComboBox;
-	PullSpellInfo spellInfo = new PullSpellInfo();
-	ArrayList<Spell> spellList = spellInfo.getSpellList();
-	
+	PullSpellInfo spellInfo = DatabaseLoadup.spellInfo;
+	ArrayList<Spell> spellList = DatabaseLoadup.spellInfo.getSpellList();
 	
 	public SpellSearchPanel(String searchFormType, PanelListener pl){
 		panelListener = pl;

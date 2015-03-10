@@ -19,7 +19,7 @@ import BasicUtility.ButtonUtility;
 import BasicUtility.PanelEvent;
 import BasicUtility.PanelListener;
 
-
+@SuppressWarnings("serial")
 public class BasicButtonPanel extends JPanel implements ActionListener{
 	JButton[] buttons;
 	PanelListener panelListener;

@@ -1,10 +1,4 @@
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.util.ArrayList;
-
 import javax.swing.JPanel;
-
-import BasicUtility.Dice;
 import BasicUtility.FrameUtility;
 import BasicUtility.MyFrame;
 import BasicUtility.PanelEvent;
@@ -21,12 +15,18 @@ public class Main implements PanelListener {
 		// CharacterSheet charSheet = new CharacterSheet();
 		
 		Main m = new Main();
+		m.init();
 	}
 	
 	public Main(){
+		
+	}
+	
+	public void init(){
 		setupMainFrame();
 		//TODO taken out to test faster
-		currentPanel = new CharacterSheet();/*new BasicButtonPanel(this, ButtonUtility.basicButtonLabels);*/
+		//currentPanel = new CharacterSheet();/*new BasicButtonPanel(this, ButtonUtility.basicButtonLabels);*/
+		currentPanel = new BasicButtonPanel(this, ButtonUtility.basicButtonLabels);
 		startMainFrame();
 	}
 	
